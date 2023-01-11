@@ -9,8 +9,8 @@ import it.operazioni.operazioni;
 
 public class CalcolatriceTest {
 	
-	int a=5;
-	int b =8;
+	static int a=5;
+	static int b =8;
 	
 	operazioni  Operazioni = new operazioni();
 	

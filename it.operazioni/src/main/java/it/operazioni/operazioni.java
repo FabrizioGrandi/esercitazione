@@ -43,12 +43,17 @@ public class operazioni {
 	 
 		public int numeriDivisione (int a , int b)
 		{ int divisione;
+		if (b == 0){
+		    throw new IllegalArgumentException("Impossibile dividere per zero");
+		}
+		divisione= a/b;
 		
-		divisione= a-b;
+		
 		System.out.println(divisione);
 		return divisione;
-		
 		}
+		
+		
 
 	
  
